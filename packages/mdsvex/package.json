@@ -2,6 +2,7 @@
 	"name": "mdsvex",
 	"version": "0.12.1",
 	"description": "Markdown preprocessor for Svelte",
+	"type": "module",
 	"exports": {
 		".": {
 			"require": "./dist/main.cjs",

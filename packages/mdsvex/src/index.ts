@@ -26,7 +26,7 @@ import remark2rehype from 'remark-rehype';
 //@ts-ignore
 import hast_to_html from '@starptech/prettyhtml-hast-to-html';
 
-import { mdsvex_parser } from './parsers';
+import { mdsvex_parser } from './parsers/index';
 import {
 	default_frontmatter,
 	parse_frontmatter,
@@ -35,7 +35,7 @@ import {
 	smartypants_transformer,
 	highlight_blocks,
 	code_highlight,
-} from './transformers';
+} from './transformers/index';
 
 function stringify(this: Processor, options = {}) {
 	this.Compiler = compiler;

@@ -3,7 +3,7 @@ import * as assert from 'uvu/assert';
 import { lines } from '../utils';
 import * as shiki from 'shiki';
 
-import { mdsvex } from '../../src';
+import { mdsvex } from '../../src/index';
 
 const highlight = suite('code-highlighting');
 
